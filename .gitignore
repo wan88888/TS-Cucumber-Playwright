@@ -1,0 +1,70 @@
+# Dependency directories
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+
+# Reports
+reports/
+**/*.html
+**/*.json
+**/screenshots/
+**/videos/
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.history
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+Icon?
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Package files
+package-lock.json
+yarn.lock
+npm-debug.log
+yarn-error.log
+
+# Generated files
+playwright-report/
+test-results/ 
