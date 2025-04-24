@@ -15,8 +15,8 @@ coverage
 
 # Reports
 reports/
-**/*.html
-**/*.json
+reports/**/*.html
+reports/**/*.json
 **/screenshots/
 **/videos/
 
@@ -59,7 +59,7 @@ tmp/
 *.tmp
 *.temp
 
-# Package files
+# Package lock files
 package-lock.json
 yarn.lock
 npm-debug.log
@@ -67,4 +67,8 @@ yarn-error.log
 
 # Generated files
 playwright-report/
-test-results/ 
+test-results/
+
+# Do NOT ignore these important config files
+!package.json
+!tsconfig.json 
